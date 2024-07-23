@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/**
+ * Clay 3.13.0
+ *
+ * SPDX-FileCopyrightText: © 2020 Liferay, Inc. <https://liferay.com>
+ * SPDX-FileCopyrightText: © 2020 Contributors to the project Clay <https://github.com/liferay/clay/graphs/contributors>
+ *
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+/**
+ * Bootstrap v4.4.1
+ *
+ * SPDX-FileCopyrightText: © 2019 Twitter, Inc. <https://twitter.com>
+ * SPDX-FileCopyrightText: © 2019 The Bootstrap Authors <https://getbootstrap.com/>
+ *
+ * SPDX-License-Identifier: LicenseRef-MIT-Bootstrap
+ */
+.applications-menu-modal .modal-full {
+  margin-top: 0;
+  width: 100%; }
+  @media (max-width: 575.98px) {
+    .applications-menu-modal .modal-full {
+      margin: 0; } }
+  .applications-menu-modal .modal-full .modal-body {
+    padding: 0; }
+  .applications-menu-modal .modal-full .modal-content {
+    border-radius: 0;
+    box-shadow: none; }
+
+.applications-menu-modal .modal-info .btn-monospaced {
+  color: #6b6c7e; }
+
+.applications-menu-header .nav-link {
+  color: #6b6c7e;
+  padding-bottom: 1rem;
+  padding-top: 1rem; }
+  .applications-menu-header .nav-link.active {
+    color: #272833; }
+
+.applications-menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-height: 100vh; }
+
+@media (min-width: 768px) {
+  .applications-menu-bg {
+    background: linear-gradient(to right, #fff 0%, #fff 50%, #f7f8f9 51%, #f7f8f9 100%); }
+    .applications-menu-bg .container-fluid {
+      background-color: #fff; } }
+
+.applications-menu-border-top {
+  border-top: 1px solid #f1f2f5; }
+
+.applications-menu-nav-columns {
+  column-count: 1;
+  margin-left: -12px;
+  margin-right: -12px;
+  orphans: 1;
+  widows: 1; }
+  @media (min-width: 576px) {
+    .applications-menu-nav-columns {
+      column-count: 2; } }
+  @media (min-width: 768px) {
+    .applications-menu-nav-columns {
+      column-count: 3; } }
+  @media (min-width: 992px) {
+    .applications-menu-nav-columns {
+      column-count: 4; } }
+  .applications-menu-nav-columns .col-md {
+    display: inline-block; }
+
+.applications-menu-nav-header {
+  color: #6b6c7e;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.applications-menu-nav-link {
+  color: #272833; }
+  .applications-menu-nav-link:hover {
+    color: #272833;
+    text-decoration: none; }
+  .applications-menu-nav-link.active {
+    font-weight: 600; }
+  .applications-menu-nav-link .sticker-sm {
+    height: 1.25rem;
+    width: 1.25rem; }
+
+.applications-menu-sites-label {
+  background-color: #f7f8f9;
+  color: #6b6c7e;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-transform: uppercase; }
+  @media (min-width: 768px) {
+    .applications-menu-sites-label {
+      bottom: 100%;
+      left: 0.5rem;
+      padding: 1.375rem 1.5rem;
+      position: absolute; } }
+
+.applications-menu-sites {
+  background-color: #f7f8f9;
+  height: 100%; }
+
+.applications-menu-shrink {
+  flex-shrink: 1;
+  min-width: 0; }
+
+.applications-menu-btn {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-decoration: none; }
+
+.applications-menu-nav-divider {
+  border-top: 1px solid #6b6c7e;
+  width: 1.25rem; }
+
+.applications-menu-company {
+  font-size: 1rem;
+  font-weight: 600; }
+
+.applications-menu-powered {
+  color: #6b6c7e;
+  font-size: 0.625rem;
+  text-align: right;
+  text-transform: uppercase; }
+
+.applications-menu-copyright {
+  color: #6b6c7e;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: right; }
